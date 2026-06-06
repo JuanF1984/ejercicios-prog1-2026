@@ -8,9 +8,9 @@ int busqueda(int vector[], int tamanio, int buscado)
     int fin = tamanio - 1;
     int posicion = -1;
 
-    while (inicio <= fin)
+    while ((inicio <= fin)&&(posicion==-1))
     {
-        int medio = (inicio + fin) / 2;
+        int medio = inicio + (fin-inicio) / 2;
 
         if (vector[medio] == buscado)
         {

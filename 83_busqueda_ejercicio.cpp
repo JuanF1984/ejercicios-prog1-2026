@@ -9,6 +9,7 @@ using namespace std;
 // encuentra habilitado para acceder al beneficio.
 
 int main() {
-    
+    const int MAX = 5;
+    int clientes[MAX] = {455, 467, 470, 495, 500};
     return 0;
 }
