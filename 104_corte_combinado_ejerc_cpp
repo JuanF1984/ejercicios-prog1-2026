@@ -1,0 +1,52 @@
+//Se dispone de un vector ordenado por:
+
+//Género
+// Autor
+
+// Cada registro representa un libro (genero, autor, paginas)
+
+// Se pide informar:
+
+// Por cada autor
+
+// Nombre del autor.
+// Cantidad de libros publicados.
+// Cantidad total de páginas escritas.
+
+// Por cada género
+
+// Cantidad de autores distintos.
+// Cantidad total de libros.
+// Cantidad total de páginas.
+
+// Salida esperada: 
+
+// GENERO: Novela
+
+// Autor: Borges
+// Libros: 2
+// Paginas: 350
+
+// Autor: Cortazar
+// Libros: 2
+// Paginas: 400
+
+// Autores: 2
+// Libros: 4
+// Paginas: 750
+
+// -----------------------
+
+// GENERO: Poesia
+
+// Autor: Alfonsina
+// Libros: 2
+// Paginas: 220
+
+// Autor: Neruda
+// Libros: 2
+// Paginas: 550
+
+// Autores: 2
+// Libros: 4
+// Paginas: 770
