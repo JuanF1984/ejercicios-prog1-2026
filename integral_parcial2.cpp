@@ -37,7 +37,7 @@ bool busquedaBinaria (int dato, Socio socios[]){
 void insertar(Socio nuevo, Socio socios[], int &cant){
      int pos = cant;
 
-    while (pos > 0 && vec[pos - 1].nroSocio > nuevo.nroSocio) {
+    while (pos > 0 && socios[pos - 1].nroSocio > nuevo.nroSocio) {
         socios[pos] = socios[pos - 1];
         pos--;
     }
